@@ -64,7 +64,10 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Edwin Maza Jara
+  email: "eamazaj[at]gamil.com"
+  github: eamazaj    # eg. daattali
+  twitter: eamazaj   # eg. daattali
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -73,7 +76,7 @@ author:
 social-network-links:
   rss: true
   email: "eamazaj@gmail.com"
-  facebook: daattali
+# facebook: daattali
   github: eamazaj
   twitter: eamazaj
 #  reddit: yourname
@@ -93,7 +96,7 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+#  facebook: false
   google: false
   linkedin: true
 
@@ -145,7 +148,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Guayaquil"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -153,6 +156,7 @@ paginate: 5
 
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
